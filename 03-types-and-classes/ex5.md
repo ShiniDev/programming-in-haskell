@@ -1,0 +1,3 @@
+Why is it not feasible in general for function types to be instances of the **Eq** class? When is it feasible? Hint: two functions of the same type are equal if they always return equal results for equal arguments.
+
+Based on my current understanding, functions are supposed to do specific computations and it would not be feasible in comparing two functions that does different things. It is feasible only if there is a similar library that implements the same function and intends to do the same thing, it would be useful for cross-checking the results returned by both functions.
